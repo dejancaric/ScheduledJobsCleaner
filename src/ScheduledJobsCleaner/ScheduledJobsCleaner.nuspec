@@ -12,8 +12,7 @@
     <copyright>Copyright 2018 - Dejan Caric</copyright>
     <tags>Episerver ScheduledJobs</tags>
     <dependencies>
-      <dependency id="EPiServer.CMS.Core" version="[11.1, 12)" />
-      <dependency id="EPiServer.Framework" version="[11.1, 12)" />
+      <dependency id="EPiServer.CMS.Core" version="[10.0.1, 11)" />
     </dependencies>
   </metadata>
 </package>
