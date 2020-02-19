@@ -49,7 +49,7 @@ namespace ScheduledJobsCleaner
                     Name = job.Name,
                     AssemblyName = job.AssemblyName
                 })
-                .Where(x => !x.FromCode)
+                .Where(x => !x.FromCode && !x.AssemblyName.Contains("Forms.UI"))
                 .ToList();
 
             return ghostJobs;
